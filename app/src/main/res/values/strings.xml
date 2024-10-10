@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Hello_World_Marktech</string>
+    <string name="button2">Pakeisti teksta</string>
+    <string name="button3">Pakeisti spalva</string>
 </resources>

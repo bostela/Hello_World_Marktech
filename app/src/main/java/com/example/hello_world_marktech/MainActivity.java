@@ -1,6 +1,9 @@
 package com.example.hello_world_marktech;
 
+import android.graphics.Color;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -21,4 +24,16 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
     }
+}
+
+public void button2(View view) {
+   TextView tv = (TextView)findViewById(R.id.tvChangeText);
+    tv.setText("Welcome to android");
+}
+
+public void button3(View view) {
+    TextView tv = (TextView)findViewById(R.id.tvChangeText);
+    tv.setTextColor(Color.RED);
+}
+
 }
